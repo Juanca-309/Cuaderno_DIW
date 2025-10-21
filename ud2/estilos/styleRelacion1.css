@@ -1,0 +1,495 @@
+/* Ejercicio 1 */
+#ej1 p:first-child {
+  border-top: 1px solid black;
+}
+#ej1 p:last-child {
+  border-bottom: 1px solid black;
+}
+
+/*Ejercicio 2*/
+#lista1 > li:nth-child(odd) {
+  text-decoration: line-through;
+}
+#lista1 > li:nth-child(even) {
+  text-decoration: underline;
+}
+
+#lista2 > li:nth-child(4n) {
+  color: #008000;
+}
+
+/*Ejercicio 3*/
+#ej3 strong:first-of-type {
+  color: red;
+  font-size: 1.2em;
+}
+
+/*Ejercicio 4*/
+#ej4 tr:only-child {
+  background-color: yellow;
+}
+/*Ejercicio 5*/
+#ej5 td:empty {
+  background-color: yellow;
+}
+/*Ejercicio 6*/
+#DiaSemana > li::first-letter {
+  text-decoration: underline;
+}
+
+/* Ejercicio 7 */
+#ej7 p::before {
+  content: "- ";
+}
+
+/* Ejercicio 8 */
+#ej8 li {
+  color: deeppink;
+}
+
+#ej8 ul > li {
+  color: green;
+}
+
+/* Ejercicio 9 */
+#ej9 > p:first-of-type {
+  text-indent: 2em;
+}
+
+/* Ejercicio 10 */
+#ej10 h1 {
+  font-size: 40px;
+  font-family: "Arial";
+}
+#ej10 h2 {
+  font-size: 30px;
+  font-family: "Arial Black";
+}
+#ej10 h3 {
+  font-size: 25px;
+  font-family: "Arial Narrow";
+}
+#ej10 h4 {
+  font-size: 20px;
+}
+#ej10 h5 {
+  font-size: 15px;
+}
+#ej10 h6 {
+  font-size: 10px;
+}
+
+/* Ejercicio 11 */
+#ej11 p {
+  color: green;
+  text-align: center;
+  /* Para que aparezca con color rojo oscuro */
+  /* color: darkred; */
+}
+
+/* Ejercicio 12 */
+#ej12 h1 {
+  letter-spacing: 2rem;
+  word-spacing: 2rem;
+  text-transform: uppercase;
+}
+#ej12 h2 {
+  letter-spacing: 1.5rem;
+  word-spacing: 1.5rem;
+  text-transform: uppercase;
+}
+#ej12 h3 {
+  letter-spacing: 1.25rem;
+  word-spacing: 1.25rem;
+  text-transform: uppercase;
+}
+
+/* Ejercicio 13 */
+#ej13 a {
+  font-size: smaller;
+}
+#ej13 a:hover {
+  font-size: larger;
+  background-color: yellow;
+}
+
+/* Ejercicio 14 */
+#ej14 a {
+  text-decoration: line-through;
+}
+
+/* Ejercicio 15 */
+#ej15 p {
+  margin: 0;
+}
+
+#ej15 p:nth-child(1) {
+  background-color: #000;
+  color: #fff;
+}
+#ej15 p:nth-child(2) {
+  background-color: #111;
+  color: #fff;
+}
+#ej15 p:nth-child(3) {
+  background-color: #222;
+  color: #fff;
+}
+#ej15 p:nth-child(4) {
+  background-color: #333;
+  color: #fff;
+}
+#ej15 p:nth-child(5) {
+  background-color: #444;
+  color: #fff;
+}
+#ej15 p:nth-child(6) {
+  background-color: #555;
+  color: #fff;
+}
+#ej15 p:nth-child(7) {
+  background-color: #666;
+  color: #fff;
+}
+#ej15 p:nth-child(8) {
+  background-color: #777;
+  color: #fff;
+}
+#ej15 p:nth-child(9) {
+  background-color: #888;
+  color: #000;
+}
+#ej15 p:nth-child(10) {
+  background-color: #999;
+  color: #000;
+}
+#ej15 p:nth-child(11) {
+  background-color: #aaa;
+  color: #000;
+}
+#ej15 p:nth-child(12) {
+  background-color: #bbb;
+  color: #000;
+}
+#ej15 p:nth-child(13) {
+  background-color: #ccc;
+  color: #000;
+}
+#ej15 p:nth-child(14) {
+  background-color: #ddd;
+  color: #000;
+}
+#ej15 p:nth-child(15) {
+  background-color: #eee;
+  color: #000;
+}
+#ej15 p:nth-child(16) {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Ejercicio 16 */
+#ej16 tbody th {
+  background-color: #e0e0e0;
+  font-weight: bold;
+}
+
+#ej16 tbody td {
+  background-color: #f5f5f5;
+  padding: 8px;
+}
+
+/* Ejercicio 17 */
+#ej17 {
+  display: flex;
+  gap: 10px;
+}
+#bloque1 {
+  width: 50%;
+  height: 1rem;
+  background-color: red;
+}
+
+#bloque2 {
+  width: 30%;
+  height: 1rem;
+  background-color: aqua;
+}
+
+#bloque3 {
+  width: 20%;
+  height: 1rem;
+  background-color: yellow;
+}
+
+/* Ejercicio 18 */
+#ej18 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2);
+  gap: 20px;
+}
+.cuadricula {
+  color: white;
+  text-align: center;
+  border: 1px solid #494949fd;
+}
+
+.cuadricula:nth-child(1) {
+  background-color: #305874;
+}
+.cuadricula:nth-child(2) {
+  background-color: #793f39;
+}
+.cuadricula:nth-child(3) {
+  background-color: #11ef6d;
+}
+.cuadricula:nth-child(4) {
+  background-color: #a89d52;
+}
+.cuadricula:nth-child(5) {
+  background-color: #a805e9;
+}
+.cuadricula:nth-child(6) {
+  background-color: #28a2c1fd;
+}
+
+/* Ejercicio 19 */
+#ej19 p {
+  text-indent: 2em;
+  line-height: 1.8;
+  text-align: justify;
+}
+/* Ejercicio 20 */
+#titulo1 {
+  text-transform: uppercase;
+  background-color: #ff6b6b;
+}
+#titulo2 {
+  text-transform: lowercase;
+  background-color: #4ecdc4;
+}
+#titulo3 {
+  text-transform: capitalize;
+  background-color: #ffe66d;
+}
+
+/* Ejercicio 21 */
+#tarjeta {
+  width: 80%;
+  height: 30em;
+  border-radius: 15px;
+  box-shadow: 0.5rem 1.5rem rgb(0, 0, 0, 0.5);
+  background-image: url(../imagenes/patron_img.webp);
+  background-repeat: repeat;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Ejercicio 22 */
+#container {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+#container > span {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+/* Ejercicio 23 */
+#ej23 thead th,#ej23 tbody td{
+  color: #ffffff;
+  text-align: center;
+}
+
+#ej23 td:nth-child(1),#ej23 th:nth-child(1){
+  background-color: blueviolet;
+}
+
+.lunes{
+  background-color: #008000;
+}
+.martes{
+  background-color: #4ecdc4;
+}
+.miercoles{
+  background-color: #a51d1dfd;
+}
+.jueves{
+  background-color: #1f4d89;
+}
+.viernes{
+  background-color: #952699;
+}
+.sabado{
+  background-color: #b49830;
+  text-align: center;
+}
+.destacado{
+  background-color: #fe0000;
+}
+.especial{
+  background: linear-gradient(to right, #4ecdc4, #a51d1dfd); 
+}
+#ej23 tfoot td{
+  color: #010101;
+  font-weight: bold;
+  text-align: center;
+  background-color: aquamarine !important;
+}
+
+/* Ejercicio 24 */
+#ej24 span:nth-child(even) {
+  color: blue;
+  font-weight: bold;
+}
+
+/* Ejercicio 25 */
+button {
+  background-color: gray;
+  color: white;
+  transition: 0.5s;
+}
+button:hover {
+  background-color: blue;
+  transition: 0.5s;
+}
+button:active {
+  background-color: green;
+  transition: 0.5s;
+}
+
+/* Ejercicio 26 */
+#ej26 > ol {
+  list-style-type: upper-roman;
+  color: #11ef6d;
+  font-size: 0.75rem;
+  margin-left: 0;
+}
+
+#ej26 ol ol {
+  list-style-type: lower-alpha;
+  color: #4ecdc4;
+  font-size: 1.25rem;
+  margin-left: 20px;
+}
+
+#ej26 ol ol ul {
+  list-style-type: square;
+  color: #ff6b6b;
+  font-size: 2.75rem;
+  margin-left: 40px;
+}
+
+/* Ejercicio 27 */ /**/
+#ej27 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#ej27 a:link {
+  color: blue;
+  text-decoration: underline;
+}
+
+#ej27 a:visited {
+  color: purple;
+  text-decoration: none;
+}
+
+#ej27 a:hover {
+  background-color: yellow;
+  color: black;
+}
+
+#ej27 a:active {
+  color: red;
+}
+
+/* Ejercicio 28 */
+#ej28 table {
+  width: 100%;
+  border-collapse: collapse;
+}
+#ej28 thead {
+  background-color: #008000;
+}
+#ej28 tbody {
+  background-color: #11ef6d;
+}
+#ej28 td,
+th {
+  text-align: center;
+}
+
+/* Ejercicio 29 */
+#ej29 {
+  background-color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#ej29 ul {
+  list-style: none;
+}
+
+#ej29 li {
+  display: inline-block;
+  margin: 0 1rem;
+  padding: 0.5rem;
+}
+
+#ej29 a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+#ej29 a:hover {
+  color: #ffd700;
+}
+
+#ej29 .activo {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Ejercicio 30 */
+#ej30 form {
+  max-width: 600px;
+  margin: 0 auto; /*centrar */
+}
+
+#ej30 input[type="text"],
+#ej30 textarea {
+  width: 100%;
+  height: 2.5em;
+  background-color: #f0f0f0;
+  color: #333;
+  border: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+#ej30 textarea {
+  height: 6rem;
+}
+
+#ej30 input[type="text"]:focus,
+#ej30 textarea:focus,
+#ej30 input[type="text"]:hover,
+#ej30 textarea:hover {
+  border-color: #4caf50;
+  outline: none; /*Eliminar la linea del input*/
+}
+
+#ej30 button {
+  display: block;
+  margin: 0px auto; /*centrar */
+  padding: 10px 30px;
+  background-color: #4caf50;
+  color: white;
+}
