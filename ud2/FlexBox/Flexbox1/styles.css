@@ -1,0 +1,55 @@
+.contendor {
+    background-color: #fbecfb;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+
+.contenido-principal {
+    background-color: #fbecfb;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    height: 48vh;
+    width: 99%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.caja {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffc5d5;
+    color: black;
+    font-weight: bold;
+    width: 15vh;
+    height: 10vh;
+    border: 2px solid #ff3d6a;
+}
+
+
+.menu {
+    display: flex;
+    background-color: #272727;
+    width: 100%;
+    height: 7vh;
+    gap: 0.7rem;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-weight: bold;
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+.items-menu {
+    background-color: #656565;
+    color: white;
+    padding: 0.5em 1em 0.5em 1em;
+}
