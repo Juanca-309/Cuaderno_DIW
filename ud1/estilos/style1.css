@@ -1,0 +1,84 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #fff;
+  color: #222;
+  margin: 0;
+  padding: 2rem;
+  line-height: 1.6;
+}
+
+/* encabezado */
+h1 {
+  text-align: center;
+  color: #e60012;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+/* enlaces */
+a {
+  display: inline-block;
+  color: #e60012;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 1rem 0;
+}
+
+a:hover {
+  color: #c0000f;
+  text-decoration: underline;
+}
+
+/* imagenes */
+img {
+  display: block;
+  margin: 1.5rem auto;
+  max-width: 80%;
+  height: auto;
+  border-radius: 0.8rem;
+  box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/* lista */
+ul {
+  background-color: #fff5f5;
+  border-left: 0.4rem solid #e60012;
+  padding: 1.5rem 2rem;
+  border-radius: 0.6rem;
+  box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, 0.1);
+  list-style: none;
+  margin: 2rem 0;
+}
+
+ul li {
+  padding: 0.6rem 0;
+  border-bottom: 0.05rem solid #f0cccc;
+}
+
+ul li:last-child {
+  border-bottom: none;
+}
+
+/* media */
+@media (max-width: 768px) {
+  body {
+    padding: 1.5rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  img {
+    max-width: 95%;
+  }
+
+  ul {
+    padding: 1rem 1.5rem;
+  }
+}
