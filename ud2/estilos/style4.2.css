@@ -1,0 +1,56 @@
+
+.caja-azul {
+    float: left;
+    margin: 1%;
+    width: 30%;
+    height: 15vh;
+    background-color: rgb(57, 176, 255);
+}
+
+.caja-morada {
+    float: left;
+    margin: 1%;
+    width: 30%;
+    height: 15vh;
+    background-color: rgb(177, 57, 255);
+}
+
+.caja-roja {
+    float: left;
+    margin: 1%;
+    width: 30%;
+    height: 50vh;
+    background-color: rgb(255, 57, 57);
+}
+
+.caja-amarilla {
+    float: left;
+    margin: 1%;
+    width: 30%;
+    height: 15vh;
+    background-color: rgb(255, 243, 57);
+}
+
+.caja-verde {
+    float: left;
+    margin: 1%;
+    width: 30%;
+    height: 15vh;
+    background-color: rgb(57, 255, 83);
+}
+
+.caja-dorada {
+    float: left;
+    margin: 1%;
+    width: 30%;
+    height: 15vh;
+    background-color: rgb(255, 223, 57);
+}
+
+.caja-rosa {
+    float: left;
+    margin: 1%;
+    width: 30%;
+    height: 15vh;
+    background-color: rgb(255, 57, 201);
+}
