@@ -1,0 +1,58 @@
+.contenedor {
+    height: 99vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://picsum.photos/1920/1080?random=1');
+    z-index: 2;
+    background-attachment: fixed;
+    position: relative;
+    transition: transform 2s ease, opacity 2s ease;
+}
+
+.navidad {
+    position: absolute;
+    background: linear-gradient(135deg, #b40000, #ff3b3b, #ffef9f, #0b8b00, #005f00);
+    top: 0;
+    color: #000000;
+    font-size: 1em;
+    font-family: Oswald, sans-serif;
+    transition: transform 2.5s ease, opacity 2.5s ease;
+    opacity: 0;
+    z-index: 1;
+}
+
+.boton {
+    display: none;
+}
+
+.label {
+    background-color: #5200ff;
+    color: white;
+    padding: 1em;
+    border-radius: 0.5em;
+    font-size: 1em;
+    font-family: Oswald, sans-serif;
+    cursor: pointer;
+}
+
+.label:hover {
+    color: #000000;
+}
+
+#empezar:checked ~ .contenedor {
+    transform: translateY(-100%);
+    opacity: 0;
+
+}
+
+#empezar:checked ~ .navidad {
+    transform: translateY(0);
+    opacity: 1;
+    display: flex;
+    height: 50%;
+    width: 99%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
