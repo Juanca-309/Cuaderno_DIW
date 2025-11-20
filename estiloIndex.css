@@ -10,15 +10,28 @@ body {
 }
 
 header {
-    background: linear-gradient(to right, #7c3aed, #22c55e);
-    color: white;
-    padding: 5%;
+    background: linear-gradient(90deg, #0a120d, #14532d, #22c55e);
+    color: #d1ffd8;
+    padding: 40px 0;
     text-align: center;
 }
 
 main {
     width: 50%;
-    margin-top: 5%;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #020617;
+    padding: 2%;
+    border: 1px solid #22c55e;
+    border-radius: 10px;
+}
+.contendorPadre {
+    display: flex;
+    gap: 3em;
+}
+.contendor {
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     background-color: #020617;
@@ -61,6 +74,14 @@ a:hover {
     color: #020617;
 }
 
+.boton {
+    width: 20%;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #020617;
+    text-align: center;
+}
 
 footer {
     margin-top: auto;
