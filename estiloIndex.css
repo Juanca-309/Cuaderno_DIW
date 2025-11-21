@@ -28,7 +28,7 @@ main {
 }
 .contendorPadre {
     display: flex;
-    gap: 3em;
+    gap: 4%;
 }
 .contendor {
     width: 50%;
